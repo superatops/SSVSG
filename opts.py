@@ -27,7 +27,7 @@ def parse_opt():
 
 
     # load model and settings
-    # 测试和强化学习的时候改成train
+    
     parser.add_argument('--resume_from', type=str, default=None,
                     help="continuing training from this experiment id")#'train'
     parser.add_argument('--resume_from_best', type=str2bool, default=True,
