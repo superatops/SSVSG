@@ -1,4 +1,4 @@
-## Paper "Sentinel mechanism for Visual Semantic Graph-based image captioning"
+## Paper "Sentinel mechanism for Visual-Semantic Graph-based image captioning"
 
 
 
