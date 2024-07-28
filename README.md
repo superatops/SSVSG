@@ -47,7 +47,7 @@ MLE training:
 
 RL training
 
-`python train-rl.py --gpus 0 --id experiment-rl --learning_rate 2e-5 --resume_from train --resume_from_best True --self_critical_after 0 --max_epochs 60 --learning_rate_decay_start -1 --scheduled_sampling_start -1 --reduce_on_plateau`
+`python train.py --gpus 0 --id train-rl --learning_rate 2e-5 --resume_from train --resume_from_best True --self_critical_after 0 --max_epochs 60 --learning_rate_decay_start -1 --scheduled_sampling_start -1 --reduce_on_plateau`
 
 Evaluate your own model or Load trained model:
 
